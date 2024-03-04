@@ -123,3 +123,30 @@ header {
     font-size: 25px;
     font-weight: 500;
 }
+
+
+/* Call now section related styles */
+
+.call-now {
+    background-image: url('../resources/images/gradient2.png'), url('../resources/images/watch.png');
+    /* background-image:  */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    background-position: bottom right, center;
+}
+
+.call-now-button {
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px black solid;
+    border-radius: 5px;
+    background: #FFF;
+    padding: 20px 35px;
+    margin-top: 24px;
+}
+
+.call-now-content {
+    padding: 60px;
+}
