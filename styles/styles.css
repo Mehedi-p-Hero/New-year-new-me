@@ -44,7 +44,7 @@ header {
     font-weight: 700;
 }
 
-.banner-description{
+.banner-description {
     margin-top: 24px;
     margin-bottom: 32px;
 }
@@ -63,7 +63,7 @@ header {
 /* Section related styles  */
 
 .section-title {
-    color:#151414;
+    color: #151414;
     font-size: 40px;
     font-weight: 700;
 }
@@ -92,4 +92,34 @@ header {
 .previous-year-description {
     margin-top: 24px;
     margin-bottom: 16px;
+}
+
+
+/* Plan section styles  */
+
+.plan h3 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.milestone-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.goal-container {
+    align-items: center;
+    text-align: center;
+}
+
+.goal-title {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.goal-mindset {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
 }
