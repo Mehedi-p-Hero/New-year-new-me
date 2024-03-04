@@ -4,12 +4,22 @@
     font-family: "Work Sans", sans-serif;
 }
 
+main {
+    max-width: 1340px;
+    margin: auto;
+}
+
+main section {
+    margin-top: 130px
+}
+
 p {
     color: #444343;
     font-size: 16px;
     font-weight: 400;
-    /* line-height: 26px; */
+    line-height: 26px;
 }
+
 
 /* Header related styles */
 
@@ -34,10 +44,9 @@ header {
     font-weight: 700;
 }
 
-.banner-description {
-    line-height: 26px;
-    margin-top: 25px;
-    margin-bottom: 30px;
+.banner-description{
+    margin-top: 24px;
+    margin-bottom: 32px;
 }
 
 .primary-button {
@@ -48,4 +57,39 @@ header {
     border-radius: 5px;
     background: #F15B22;
     padding: 20px 25px;
+}
+
+
+/* Section related styles  */
+
+.section-title {
+    color:#151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+/* Previous Year Section Styles */
+
+.previous-year {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.previous-year-img {
+    max-width: 416px;
+}
+
+.previous-year-content {
+    max-width: 425px;
+}
+
+.marked-text li {
+    list-style: none;
+}
+
+.previous-year-description {
+    margin-top: 24px;
+    margin-bottom: 16px;
 }
